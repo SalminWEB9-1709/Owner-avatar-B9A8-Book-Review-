@@ -1,0 +1,80 @@
+[
+  {
+    "book_id": 1,
+    "book_name": "Loving Jesus More",
+    "author_name": "j.d. salinger",
+    "image_id": "https://i.ibb.co/QCH7xFC/kindpng-2193744-1.png",
+    "review": "A timeless coming-of-age novel with a unique narrative style.A book review is a form of literary criticism in which a book is merely described (summary review) or analyzed based on content, style, and merit. A book review may be a primary source, an opinion piece, a summary review, or a scholarly view.",
+    "total_pages": 277,
+    "rating": 4.3,
+    "category": "fiction",
+    "tags": ["coming of age", "literary classic"],
+    "publisher": "little, brown and company",
+    "year_of_publishing": 1951
+  },
+  {
+    "book_id": 2,
+    "book_name": "Spine of the Dragon",
+    "author_name": "harper lee",
+    "image_id": "https://i.ibb.co/KbrHkDw/kindpng-4945926-1.png",
+    "review": "A poignant portrayal of racial injustice and moral growth.A book review is a form of literary criticism in which a book is merely described (summary review) or analyzed based on content, style, and merit. A book review may be a primary source, an opinion piece, a summary review, or a scholarly view.",
+    "total_pages": 281,
+    "rating": 4.6,
+    "category": "fiction",
+    "tags": ["social justice", "southern gothic"],
+    "publisher": "j. b. lippincott & co.",
+    "year_of_publishing": 1960
+  },
+  {
+    "book_id": 3,
+    "book_name": "The Last Art of Good Conversation",
+    "author_name": "jane austen",
+    "image_id": "https://i.ibb.co/8gHcy6s/kindpng-5624060-1.png",
+    "review": "A chilling dystopian novel that remains relevant today.A book review is a form of literary criticism in which a book is merely described (summary review) or analyzed based on content, style, and merit. A book review may be a primary source, an opinion piece, a summary review, or a scholarly view.",
+    "total_pages": 328,
+    "rating": 4.5,
+    "category": "fiction",
+    "tags": ["dystopian", "political satire"],
+    "publisher": "secker & warburg",
+    "year_of_publishing": 1949
+  },
+  {
+    "book_id": 4,
+    "book_name": "The Hate you Give",
+    "author_name": "f. scott fitzgerald",
+    "image_id": "https://i.ibb.co/x2YSF0C/kindpng-1064993.png",
+    "review": "A captivating tale of wealth, love, and the american dream.A book review is a form of literary criticism in which a book is merely described (summary review) or analyzed based on content, style, and merit. A book review may be a primary source, an opinion piece, a summary review, or a scholarly view.",
+    "total_pages": 180,
+    "rating": 4.4,
+    "category": "fiction",
+    "tags": ["roaring twenties", "love story"],
+    "publisher": "charles scribner's sons",
+    "year_of_publishing": 1925
+  },
+  {
+    "book_id": 5,
+    "book_name": "Money",
+    "author_name": "jane austen",
+    "image_id": "https://i.ibb.co/wYPgThW/kindpng-7318921.png",
+    "review": "A timeless romance filled with wit, satire, and social commentary.A book review is a form of literary criticism in which a book is merely described (summary review) or analyzed based on content, style, and merit. A book review may be a primary source, an opinion piece, a summary review, or a scholarly view.",
+    "total_pages": 279,
+    "rating": 4.7,
+    "category": "fiction",
+    "tags": ["romance", "regency era"],
+    "publisher": "t. egerton, whitehall",
+    "year_of_publishing": 1813
+  },
+  {
+    "book_id": 6,
+    "book_name": "Annotated Texas Family Code",
+    "author_name": "j.r.r. tolkien",
+    "image_id": "https://i.ibb.co/jrvR4HW/kindpng-81724-1.png",
+    "review": "An enchanting adventure set in middle-earth, perfect for readers of all ages.A book review is a form of literary criticism in which a book is merely described (summary review) or analyzed based on content, style, and merit. A book review may be a primary source, an opinion piece, a summary review, or a scholarly view.",
+    "total_pages": 310,
+    "rating": 4.8,
+    "category": "fantasy",
+    "tags": ["adventure", "middle-earth"],
+    "publisher": "allen & unwin",
+    "year_of_publishing": 1937
+  }
+]
