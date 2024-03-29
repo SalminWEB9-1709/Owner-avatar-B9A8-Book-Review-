@@ -49,13 +49,13 @@ const handleApplyWishlist = () =>{
                     <p>Rating:  {job.rating}</p>
                     <br/>
                     <div className="flex space-x-10">
-                      <Link to={`../ReadBook/${job.book_id}`}>
+                      
                      <button onClick={handleApplyRead} className="btn btn-outline">Read Books</button>
-                     </Link>
+                     
                     <br/>
-                      <Link  to={`../WishList/$/${job.book_id}`}>
+                   
                     <button onClick={handleApplyWishlist} className="btn btn-primary">Wishlist Books</button>
-                    </Link>
+                    
                     </div>
                     </div>
                   </div>

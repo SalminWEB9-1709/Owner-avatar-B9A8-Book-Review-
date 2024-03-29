@@ -10,8 +10,9 @@ const Book = ({book}) => {
             <div className="card w-96 bg-base-100 border-2 mt-9 shadow-xl justify-between">
   <figure className="px-10 pt-10 bg-slate-100 rounded-xl">
     <img src={image_id} alt="cover" />
-    <p></p>
+    
   </figure>
+
   <div className="card-body px-10 pt-10">
     <h2 className="card-title text-2xl">{book_name}</h2>
     <p className=" font-semibold  text-gray-600">By : {author_name}</p>
