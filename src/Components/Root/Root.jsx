@@ -9,6 +9,7 @@ const Root = () => {
           
            
            <Outlet></Outlet>
+           
         </div>
     );
 };

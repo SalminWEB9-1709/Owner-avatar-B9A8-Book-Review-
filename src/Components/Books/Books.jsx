@@ -21,12 +21,14 @@ const Books = () => {
             <h2 className=" text-5xl font-extrabold ">Books</h2>
             </div>
             <div>
+                
+            </div>
             <div className="grid sm:ml-10 lg:grid-cols-3 md:grid-cols-2 gap-24">
                 {
                  books.map(book =><Book key={book.book_id} book={book}></Book>)
                 }
             </div>
-            </div>
+            
         </div>
     );
 };

@@ -1,38 +1,30 @@
-import {  Link, useLoaderData } from "react-router-dom";
-import NavBar from "../NavBar/NavBar";
-import { useEffect } from "react";
-import { getStoredBookApplication } from "../LocalStorage/LocalStorage";
 import { HiOutlineMapPin } from "react-icons/hi2";
 import { MdOutlineManageAccounts } from "react-icons/md";
 import { MdOutlineRestorePage } from "react-icons/md";
-import ReadBook from "../ReadBook/ReadBook";
-import Wishlist from "../WishList/Wishlist";
+import { getStoredBookApplication } from "../LocalStorage/LocalStorage";
+import { Link, useLoaderData } from "react-router-dom";
+import { useEffect } from "react";
+import BookList from "../BookList/BookList";
 
 
 
-const BookList = () => {
+const Wishlist = () => {
     const book = useLoaderData();
     
     useEffect (() => {
         const storedBookIds = getStoredBookApplication();
         if(book.length > 0){
          const bookApplication = book.filter(book => storedBookIds.includes(book.book_id))
-            console.log(BookList,book,storedBookIds,bookApplication);
+            console.log(Wishlist,book,storedBookIds,bookApplication);
         }
     },[book])
     return (
         <div>
-            <NavBar></NavBar>
-            <ReadBook></ReadBook>
-            <Wishlist></Wishlist>
             <div>
+                <BookList></BookList>
             </div>
-            <div>
 
-            <div role="tablist" className="tabs tabs-lifted mt-40">
-  <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Read Books" />
-  <div role="tabpanel" className="tab-content bg-lime-100 border-base-300 round-box p-6">
-  <ul>
+<ul>
                 {
                     book.map(job =><li key={book.book_id}>
                         
@@ -69,18 +61,11 @@ const BookList = () => {
                     </li>)
                 }
             </ul>
-    </div>
-
-  <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Wishlist Books" checked />
-  <div role="tabpanel" className="tab-content bg-cyan-100 border-base-300 rounded-box p-6">
-    Tab content 2</div>
- </div>
 
 
-            </div>
-           
-        </div>
+
+               </div>
     );
 };
 
-export default BookList;
+export default Wishlist;
